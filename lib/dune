@@ -1,2 +1,2 @@
 (library
- (public_name hello_world))
+ (public_name zipper))

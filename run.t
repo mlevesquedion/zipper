@@ -1,16 +1,12 @@
   $ dune build @install @runtest --display short
-      ocamldep lib/.hello_world.objs/hello_world.ml.d
-        ocamlc lib/.hello_world.objs/byte/hello_world.{cmi,cmo,cmt}
-        ocamlc lib/hello_world.cma
-      ocamldep bin/.main.eobjs/main.ml.d
+      ocamldep lib/.zipper.objs/zipper.ml.d
+        ocamlc lib/.zipper.objs/byte/zipper.{cmi,cmo,cmt}
+        ocamlc lib/zipper.cma
       ocamldep test/.test.eobjs/test.ml.d
-      ocamlopt lib/.hello_world.objs/native/hello_world.{cmx,o}
-      ocamlopt lib/hello_world.{a,cmxa}
+      ocamlopt lib/.zipper.objs/native/zipper.{cmx,o}
+      ocamlopt lib/zipper.{a,cmxa}
         ocamlc test/.test.eobjs/byte/test.{cmi,cmo,cmt}
       ocamlopt test/.test.eobjs/native/test.{cmx,o}
       ocamlopt test/test.exe
           test test/test.output
-      ocamlopt lib/hello_world.cmxs
-        ocamlc bin/.main.eobjs/byte/main.{cmi,cmo,cmt}
-      ocamlopt bin/.main.eobjs/native/main.{cmx,o}
-      ocamlopt bin/main.exe
+      ocamlopt lib/zipper.cmxs
