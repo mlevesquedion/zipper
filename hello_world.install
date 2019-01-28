@@ -1,0 +1,19 @@
+lib: [
+  "_build/install/default/lib/hello_world/META" {"META"}
+  "_build/install/default/lib/hello_world/hello_world.a" {"hello_world.a"}
+  "_build/install/default/lib/hello_world/hello_world.cma" {"hello_world.cma"}
+  "_build/install/default/lib/hello_world/hello_world.cmi" {"hello_world.cmi"}
+  "_build/install/default/lib/hello_world/hello_world.cmt" {"hello_world.cmt"}
+  "_build/install/default/lib/hello_world/hello_world.cmx" {"hello_world.cmx"}
+  "_build/install/default/lib/hello_world/hello_world.cmxa" {"hello_world.cmxa"}
+  "_build/install/default/lib/hello_world/hello_world.cmxs" {"hello_world.cmxs"}
+  "_build/install/default/lib/hello_world/hello_world.dune" {"hello_world.dune"}
+  "_build/install/default/lib/hello_world/hello_world.ml" {"hello_world.ml"}
+  "_build/install/default/lib/hello_world/opam" {"opam"}
+]
+bin: [
+  "_build/install/default/bin/hello_world" {"hello_world"}
+]
+doc: [
+  "_build/install/default/doc/hello_world/README.org"
+]
